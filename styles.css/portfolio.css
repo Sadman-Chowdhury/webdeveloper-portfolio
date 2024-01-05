@@ -88,7 +88,9 @@ main{
     max-width: 1140px;
     margin: 0px auto;
 }
-
+main section{
+    margin-top: 100px;
+}
 /* About CSS */
 .about{
     padding: 130px;
@@ -114,6 +116,25 @@ main{
     font-weight: 700;
     margin-top: 5px;
 }
+
+/* What i do CSS */
 #what-i-do-des{
     padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume CSS */
+.resume-col-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
